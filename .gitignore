@@ -18,6 +18,10 @@ node_modules/
 
 # Testing
 /coverage
+comprehensive_test.py
+test_result.md
+test_summary.json
+/test_reports/
 
 # Next.js
 /.next/
@@ -77,4 +81,19 @@ agenthub/agents/youtube/db
 .cache/
 
 # Mobile development
-android-sdk/ 
+android-sdk/ frontend/node_modules/.cache/default-development/0.pack
+frontend/node_modules/.cache/default-development/0.pack
+-e 
+# Environment files
+*.env
+*.env.*
+-e 
+# Environment files
+*.env
+*.env.*
+frontend/node_modules/.cache/default-development/1.pack
+-e 
+# Environment files
+*.env
+*.env.*
+frontend/node_modules/.cache/default-development/3.pack
